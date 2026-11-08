@@ -1,0 +1,4 @@
+faster-whisper>=1.0
+pyaudiowpatch>=0.2.12
+opencc-python-reimplemented
+numpy

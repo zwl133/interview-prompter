@@ -1,0 +1,28 @@
+{
+  "ui": {
+    "opacity": 0.95,
+    "font_size": 13,
+    "width": 540,
+    "height": 470,
+    "exclude_from_capture": true,
+    "answer_mode": false,
+    "x": 1321,
+    "y": 213
+  },
+  "llm": {
+    "enabled": false,
+    "base_url": "https://api.deepseek.com/v1",
+    "api_key": "",
+    "model": "deepseek-chat",
+    "prefetch": true,
+    "rescue_max_tokens": 240
+  },
+  "asr": {
+    "enabled": true,
+    "model": "small",
+    "mode": "loopback",
+    "silence_ms": 750,
+    "auto_cue": true,
+    "hotwords": "以下是普通话面试问答。专有名词：Jenkins、JMeter、MySQL、Redis、Kafka、Docker、Linux、Shell、Python、Selenium、Postman、TPS、QPS、ERP、BOM、SQL。"
+  }
+}

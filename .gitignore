@@ -1,0 +1,25 @@
+# 模型文件：461MB，体积太大，第一次运行会自己下载
+models/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# 本地个人数据 —— 面试素材是真人信息（姓名、学校、前公司营收），不要进公开仓库
+data/resume.md
+data/answers.md
+data/sessions/
+data/config.local.json
+
+# 测试音频
+_test_audio/
+*.wav
+*.mp3
+
+# 系统
+.DS_Store
+Thumbs.db
+desktop.ini
